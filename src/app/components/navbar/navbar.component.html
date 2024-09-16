@@ -1,0 +1,13 @@
+<nav>
+  <a routerLink="/">Accueil</a>
+  <a routerLink="/models">Modèles</a>
+  <a routerLink="/contact">Contact</a>
+  <div class="auth-links">
+    <ng-container *ngIf="!(loggedIn$ | async)">
+      <a routerLink="/auth">Se connecter</a>
+    </ng-container>
+    <ng-container *ngIf="loggedIn$ | async">
+      <a (click)="logout()">Se déconnecter</a>
+    </ng-container>
+  </div>
+</nav>

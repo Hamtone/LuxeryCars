@@ -1,0 +1,16 @@
+.car-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.car-card {
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+}
+img {
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,19 @@
+<div class="auth-container">
+  <h2>{{ isLoginMode ? "Se connecter" : "S'inscrire" }}</h2>
+  <form [formGroup]="authForm" (ngSubmit)="onSubmit()">
+    <label>
+      Email:
+      <input formControlName="email" />
+    </label>
+    <label>
+      Mot de passe:
+      <input formControlName="password" type="password" />
+    </label>
+    <button type="submit">
+      {{ isLoginMode ? "Se connecter" : "S'inscrire" }}
+    </button>
+  </form>
+  <button (click)="toggleMode()">
+    {{ isLoginMode ? "Créer un compte" : "Déjà inscrit ? Connectez-vous" }}
+  </button>
+</div>

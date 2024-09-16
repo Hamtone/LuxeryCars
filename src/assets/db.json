@@ -1,0 +1,32 @@
+{
+  "car": [
+    {
+      "id": 1,
+      "name": "Ferrari LaFerrari",
+      "price": "1,500,000 €",
+      "features": "V12, 950ch, 350 km/h",
+      "image": "ferrari.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Lamborghini Aventador",
+      "price": "400,000 €",
+      "features": "V12, 740 ch, 350 km/h",
+      "image": "lamborghini.jpg"
+    },
+    {
+      "id": 3,
+      "name": "McLaren 765LT",
+      "price": "368,000 $",
+      "features": "V8 biturbo de 4L, 750 ch, 330 km/h",
+      "image": "MCLaren.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Ferrari Purosangue",
+      "price": "400,000 $",
+      "features": "V12, 725 ch, 312 km/h",
+      "image": "ferrari-puro.jpg"
+    }
+  ]
+}

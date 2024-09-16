@@ -1,0 +1,8 @@
+<div class="car-list">
+  <div *ngFor="let car of cars" class="car-card">
+    <img [src]="'images/' + car.image" alt="{{ car.name }}" />
+    <h3>{{ car.name }}</h3>
+    <p>Prix : {{ car.price }}</p>
+    <p>Caractéristiques : {{ car.features }}</p>
+  </div>
+</div>
